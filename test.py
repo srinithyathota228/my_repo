@@ -3,5 +3,5 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-num = int(input("Enter a number: "))
+num =5
 print(f"Factorial of {num} is {factorial(num)}")
